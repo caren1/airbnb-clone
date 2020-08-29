@@ -10,12 +10,12 @@ function Header() {
         <div className='header'>
             <img src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png" alt="" class="header__icon" />
 
-            <div class="header__center">
+            <div className="header__center">
                 <input type="text" />
                 <SearchIcon />
             </div>
 
-            <div class="header__right">
+            <div className="header__right">
                 <p>Become a host</p>
                 <LanguageIcon />
                 <ExpandMoreIcon />
