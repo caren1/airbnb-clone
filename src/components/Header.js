@@ -10,7 +10,7 @@ function Header() {
     return (
         <div className='header'>
             {/* not appropriate to use a tags within React, to avoid refreshing  */}
-            <Link to="/"><img src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png" alt="" class="header__icon" /></Link>
+            <Link to="/" ><img src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png" alt="" className="header__icon" /></Link>
 
             <div className="header__center">
                 <input type="text" />

@@ -13,8 +13,8 @@
 
 .card > img {
   object-fit: fill;
-  min-width: 300px;
-  min-height: 200px;
+  min-width: 200px;
+  min-height: 150px;
   width: 100%;
 }
 
@@ -36,3 +36,16 @@
   font-weight: 300;
   margin: 8px 0;
 }
+
+@media (max-width: 800px) {
+
+  .card {
+    flex: 1 0;
+  }
+
+  .card > img {
+    width: 100%;
+    
+  }
+}
+

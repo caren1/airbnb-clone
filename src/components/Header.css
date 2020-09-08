@@ -39,3 +39,19 @@
     width: 20vh;
     margin-right: 80px;
 }
+
+@media (max-width: 800px){
+
+    .header {
+     align-items: center;
+     justify-content: center;   
+    }
+
+    .header__center {
+        display: none;
+    }
+
+    .header__right {
+        display: none;
+    }
+}

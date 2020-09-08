@@ -1,8 +1,9 @@
 .search {
     position: absolute;
-    width: 100vh;
     top: 35px;
     left: 25%;
+    width: 100vw;
+    z-index: 101;
 }
 
 .search > h2 {
@@ -17,7 +18,7 @@
     top: 380px;
 }
 
-.search > input { 
+.search > input {
     width: 539px;
     padding: 20px;
     position: absolute;
@@ -25,13 +26,13 @@
     height: 30px;
     top: 420px;
     border: none;
-}
-
+  }
+  
 .search > input:focus {
     outline-width: 0;
 }
 
-.search > button{
+.search > button {
     position: absolute;
     left: 0;
     top: 480px;
@@ -39,9 +40,9 @@
     background-color: #ff7779;
     color: white;
     width: 579px;
-}
+  }
 
-.search button:hover {
-background-color: white;
-color: #ff7779;
+.search > button:hover {
+    background-color: white;
+    color: #ff7779;
 }

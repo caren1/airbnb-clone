@@ -71,6 +71,24 @@
     right: 30px;
 }
 
+@media (max-width: 810px){
 
+    .searchResult {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .searchResult__infoTop {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .searchResult > img {
+        width: 150px;
+        height: 100px;
+        align-self: flex-start;
+    }
+}
 
 

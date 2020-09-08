@@ -5,13 +5,14 @@
 }
 
 .banner__info {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    padding-top: 25vh;
+    padding-top: 15.9vh;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 40px;
     width: 300px;
+    
 }
 
 .banner__search {
@@ -43,4 +44,11 @@
 
 .banner__info > h5 {
     margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .banner__info {
+      width: 80%;
+      padding: 81px  37px;
+  }
 }
